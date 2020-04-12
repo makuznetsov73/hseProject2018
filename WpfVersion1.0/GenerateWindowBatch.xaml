@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfVersion1._0.GenerateWindowBatch"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfVersion1._0"
+        mc:Ignorable="d"
+        Title="GenerateWindowBatch" Height="200" Width="300" ResizeMode="NoResize">
+    <Grid x:Name="GridBatch">
+        <Button x:Name="randBtn" Content="Full random" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="90" FontSize="10" Background="MediumPurple"/>
+        <Button x:Name="capBtn" Content="By capacity" HorizontalAlignment="Left" Margin="10,47,0,0" VerticalAlignment="Top" Width="90" FontSize="10" Background="MediumPurple"/>
+        <Button x:Name="typesBtn" Content="By types" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="90" FontSize="10" Background="MediumPurple"/>
+        <TextBox x:Name="capTB" HorizontalAlignment="Left" Height="27" Margin="209,11,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="typeTB" HorizontalAlignment="Left" Height="27" Margin="208,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="okBtn" Content="OK" HorizontalAlignment="Left" Margin="209,130,0,0" VerticalAlignment="Top" Width="75" Height="30" Background="LightBlue"/>
+        <TextBox x:Name="sizeTB" HorizontalAlignment="Left" Height="27" Margin="208,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Capacity:" HorizontalAlignment="Left" Margin="105,13,0,0" VerticalAlignment="Top" Width="104" Height="32"/>
+        <Label Content="Types of items:" HorizontalAlignment="Left" Margin="105,50,0,0" VerticalAlignment="Top" Width="104" Height="32"/>
+        <Label Content="Batch size:" HorizontalAlignment="Left" Margin="104,87,0,0" VerticalAlignment="Top" Width="104" Height="32"/>
+
+    </Grid>
+</Window>
